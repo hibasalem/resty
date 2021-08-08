@@ -1,0 +1,14 @@
+$backgroundColor: white;
+
+body {
+  .results {
+    background: $backgroundColor;
+    height: 400px;
+    width: 33.3% !important;
+    border: 1px solid black;
+    margin-left: 33.3%;
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+}
