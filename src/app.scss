@@ -12,8 +12,8 @@ body {
   height: 100%;
 
   #root {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     height: 100%;
   }
 
@@ -33,7 +33,13 @@ body {
     text-align: center;
   }
 
+  .form {
+    float: left;
+    margin-right: 100px;
+  }
+
   .request {
-    margin-left: 15%;
+    margin-left: 25% !important;
+    margin-top: 50px !important;
   }
 }
