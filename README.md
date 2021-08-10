@@ -8,7 +8,9 @@ this is a practice projecat for week 6 at asac 401 course
 
 ### [pull request](https://github.com/hibasalem/resty/pull/3)
 
-### [code sand box](https://codesandbox.io/s/long-worker-8gm41)
+### [netlify](https://resty401.netlify.app/)
+
+### [code sand box](https://codesandbox.io/s/bitter-fog-p6rum)
 
 ---
 
