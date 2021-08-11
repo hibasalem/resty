@@ -10,7 +10,7 @@ this is a practice projecat for week 6 at asac 401 course
 
 ### [pull request](https://github.com/hibasalem/resty/pull/5)
 
-### [netlify](https://resty401-28.netlify.app/)
+### [netlify](https://deploy-preview-5--resty401.netlify.app/?utm_source=github&utm_campaign=bot_dp)
 
 ---
 
