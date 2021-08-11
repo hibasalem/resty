@@ -9,14 +9,14 @@ this is a practice projecat for week 6 at asac 401 course
 **_RESTy Phase 3_**: Connect RESTy with APIs, running live requests
 
 ### [ lab 27 pull request](https://github.com/hibasalem/resty/pull/3)
-### [ lab 27 edit pull request](https://github.com/hibasalem/resty/pull/6)
 
+### [ lab 27 edit pull request](https://github.com/hibasalem/resty/pull/6)
 
 ### [ lab 28 pull request](https://github.com/hibasalem/resty/pull/5)
 
 ### [lab 27 netlify](https://zealous-blackwell-84329a.netlify.app/)
-### [lab 28 netlify](https://resty401.netlify.app/)
 
+### [lab 28 netlify](https://resty401.netlify.app/)
 
 ---
 
@@ -41,8 +41,9 @@ this is a practice projecat for week 6 at asac 401 course
 
   - renders the loading spinner
   - renders null for results before subitting Url
+  - renders the correct data form the api
 
-![tests](./tests27.JPG)
+![tests](./tests28.JPG)
 
 ---
 
