@@ -21,7 +21,7 @@ function Form(props) {
   function handleMethod(e) {
     setmethod(e.target.id);
 
-    method == 'post' || method == 'put'
+    e.target.id === 'post' || e.target.id === 'put'
       ? setShowBody(true)
       : setShowBody(false);
   }
