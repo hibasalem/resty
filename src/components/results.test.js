@@ -11,17 +11,6 @@ test('renders null for results before subitting Url', () => {
   render(<Results />);
   const resultsPreElement = screen.getByTestId('results');
   expect(resultsPreElement).toBeInTheDocument();
-  expect(resultsPreElement).toContainHTML('<pre data-testid="results">');
+  expect(resultsPreElement).toContainHTML('<div data-testid="results" />');
   expect(resultsPreElement).toHaveTextContent('');
 });
-
-// test('renders fake values for results on invalid Url', () => {
-//   render(<Results />);
-//   const resultsPreElement = screen.getByTestId('results');
-
-// });
-
-// test('renders the right values for results on a valid Url', () => {
-//   render(<Results />);
-//   const resultsPreElement = screen.getByTestId('results');
-// });
