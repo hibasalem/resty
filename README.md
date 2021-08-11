@@ -6,9 +6,14 @@ this is a practice projecat for week 6 at asac 401 course
 
 **_RESTy Phase 2_**: Retrieving User Input and Managing State
 
-### [pull request](https://github.com/hibasalem/resty/pull/3)
+**_RESTy Phase 3_**: Connect RESTy with APIs, running live requests
 
-### [code sand box](https://codesandbox.io/s/long-worker-8gm41)
+### [ lab 27 pull request](https://github.com/hibasalem/resty/pull/3)
+### [ lab 28 pull request](https://github.com/hibasalem/resty/pull/5)
+
+### [lab 27 netlify](https://zealous-blackwell-84329a.netlify.app/)
+### [lab 28 netlify](https://resty401.netlify.app/)
+
 
 ---
 
@@ -49,20 +54,7 @@ expicted result :
   URL: `randomURL`
 
 ```
-
-  {
-      "count": 2,
-      "results": [
-          {
-          "name": "fake thing 1",
-          "url": "http://fakethings.com/1"
-          },
-          {
-          "name": "fake thing 2",
-          "url": "http://fakethings.com/2"
-          }
-      ]
-  }
+  loading sppiner
 ​
 ```
 

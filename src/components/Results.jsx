@@ -1,5 +1,6 @@
-import './results.scss';
 import JSONPretty from 'react-json-pretty';
+import './results.scss';
+
 import 'react-json-pretty/themes/monikai.css';
 
 function Results(props) {
@@ -11,10 +12,7 @@ function Results(props) {
             <JSONPretty id="json-pretty" data={props.data}></JSONPretty>
           ) : null}
         </div>
-        {/* <pre data-testid="results">
-          {props.data ? JSON.stringify(props.data, undefined, 2) : null}
-        </pre> */}
-        {!props.data && (
+          {!props.data && (
           <div data-testid="loading" className="lds-ring">
             <div></div>
             <div></div>

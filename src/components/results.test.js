@@ -7,7 +7,7 @@ test('renders the loading spinner', () => {
   expect(loadingDivElement).toBeInTheDocument();
 });
 
-test('renders null for results before subitting Url', () => {
+test('renders null for results before submitting Url', () => {
   render(<Results />);
   const resultsPreElement = screen.getByTestId('results');
   expect(resultsPreElement).toBeInTheDocument();
