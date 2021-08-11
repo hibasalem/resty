@@ -10,15 +10,15 @@ this is a practice projecat for week 6 at asac 401 course
 
 ### lab 27 
 
-[pull request](https://github.com/hibasalem/resty/pull/3)
-[edit pull request](https://github.com/hibasalem/resty/pull/6)
-[netlify](https://zealous-blackwell-84329a.netlify.app/)
-
+[pull request](https://github.com/hibasalem/resty/pull/3)    
+[edit pull request](https://github.com/hibasalem/resty/pull/6)    
+[netlify](https://zealous-blackwell-84329a.netlify.app/)    
+  
 ### lab 28
 
-[pull request](https://github.com/hibasalem/resty/pull/5)
-[edit pull request](https://github.com/hibasalem/resty/pull/7)
-[netlify](https://resty401.netlify.app/)
+[pull request](https://github.com/hibasalem/resty/pull/5)    
+[edit pull request](https://github.com/hibasalem/resty/pull/7)    
+[netlify](https://resty401.netlify.app/)    
 
 
 
