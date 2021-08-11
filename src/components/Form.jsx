@@ -53,12 +53,13 @@ function Form(props) {
           <br />
           {ShowBody && (
             <>
-              <input
+              <textarea
                 onChange={(e) => handleBody(e)}
                 placeholder="body"
                 name="body"
-                type="text"
-              />
+                rows="4"
+                cols="50"
+              ></textarea>
               <br />
             </>
           )}
