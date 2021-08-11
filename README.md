@@ -8,9 +8,12 @@ this is a practice projecat for week 6 at asac 401 course
 
 **_RESTy Phase 3_**: Connect RESTy with APIs, running live requests
 
-### [pull request](https://github.com/hibasalem/resty/pull/5)
+### [ lab 27 pull request](https://github.com/hibasalem/resty/pull/3)
+### [ lab 28 pull request](https://github.com/hibasalem/resty/pull/5)
 
-### [netlify](https://deploy-preview-5--resty401.netlify.app/?utm_source=github&utm_campaign=bot_dp)
+### [lab 27 netlify](https://zealous-blackwell-84329a.netlify.app/)
+### [lab 28 netlify](https://resty401.netlify.app/)
+
 
 ---
 
