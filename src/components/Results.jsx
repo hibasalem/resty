@@ -12,7 +12,7 @@ function Results(props) {
             <JSONPretty id="json-pretty" data={props.data}></JSONPretty>
           ) : null}
         </div>
-          {!props.data && (
+        {props.loading && (
           <div data-testid="loading" className="lds-ring">
             <div></div>
             <div></div>
