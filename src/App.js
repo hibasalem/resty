@@ -1,18 +1,50 @@
-import { React, useState, useEffect } from 'react';
-
+import { React, useState, useEffect, useReducer } from 'react';
 import './app.scss';
-
-// Let's talk about using index.js and some other name in the component folder
-// There's pros and cons for each way of doing this ...
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import Results from './components/Results';
+import History from './components/History';
 
+// import axios from 'axios';
 
+const initialState = {
+  requests: [],
+};
+
+let history;
+
+function historyReduser(state = initialState, action) {
+  const { type, payload } = action;
+  console.log(state);
+
+  switch (type) {
+    case 'addSearch':
+      // console.log('state.requests', state.requests);
+      const requests = [...state.requests, payload];
+      // console.log('requests', requests);
+      history = requests;
+      return { requests };
+    default:
+      return state;
+  }
+}
+
+function addSearch(requestParams, data) {
+  return {
+    type: 'addSearch',
+    payload: {
+      url: requestParams.url,
+      method: requestParams.method,
+      result: data,
+    },
+  };
+}
 
 function App() {
+  const [state, dispatch] = useReducer(historyReduser, initialState);
   const [data, setdata] = useState(null);
+  const [loading, setloading] = useState(false);
   const [requestParams, setrequestParams] = useState({});
 
   async function callApi(requestParams) {
@@ -23,15 +55,17 @@ function App() {
     try {
       const raw = await fetch(requestParams.url);
       const data = await raw.json();
-      setdata(data);
+
+      setloading(true);
+      setTimeout(() => {
+        setloading(false);
+      }, 800);
+      setTimeout(() => {
+        setdata(data);
+      }, 800);
+
+      dispatch(addSearch(requestParams, data));
     } catch (e) {
-      // const data = {
-      //   count: 2,
-      //  results: [
-      //     { name: 'fake thing 1', url: 'http://fakethings.com/1' },
-      //    { name: 'fake thing 2', url: 'http://fakethings.com/2' },
-      // ],
-      // };
       setdata(null);
     }
   }, [requestParams]);
@@ -44,7 +78,8 @@ function App() {
         <div>Request Method: {requestParams.method}</div>
         <div>URL: {requestParams.url}</div>
       </div>
-      <Results data={data} />
+      <History history={history} />
+      <Results data={data} loading={loading} />
       <Footer />
     </>
   );
