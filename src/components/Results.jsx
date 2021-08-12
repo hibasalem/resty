@@ -12,14 +12,16 @@ function Results(props) {
             <JSONPretty id="json-pretty" data={props.data}></JSONPretty>
           ) : null}
         </div>
-        {props.loading && (
-          <div data-testid="loading" className="lds-ring">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        )}
+        <div data-testid="loading">
+          {props.loading && (
+            <div className="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          )}
+        </div>
       </section>
     </>
   );

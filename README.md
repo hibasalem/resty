@@ -4,30 +4,36 @@ this is a practice projecat for week 6 at asac 401 course
 
 **_RESTy Phase 1_**: Begin work on the RESTy API testing application
 
+## lab 27
+
 **_RESTy Phase 2_**: Retrieving User Input and Managing State
 
-**_RESTy Phase 3_**: Connect RESTy with APIs, running live requests
-
-### lab 27 
-
-[pull request](https://github.com/hibasalem/resty/pull/3)    
-[edit pull request](https://github.com/hibasalem/resty/pull/6)    
-[netlify](https://zealous-blackwell-84329a.netlify.app/)    
-  
-### lab 28
-
-[pull request](https://github.com/hibasalem/resty/pull/5)    
-[edit pull request](https://github.com/hibasalem/resty/pull/7)    
-[netlify](https://resty401.netlify.app/)    
-
-
-
-
----
+[pull request](https://github.com/hibasalem/resty/pull/3)  
+[edit pull request](https://github.com/hibasalem/resty/pull/6)  
+[netlify](https://zealous-blackwell-84329a.netlify.app/)
 
 ![uml](./lab27.jpg)
 
 ---
+
+## lab 28
+
+**_RESTy Phase 3_**: Connect RESTy with APIs, running live requests
+
+[pull request](https://github.com/hibasalem/resty/pull/5)  
+[edit pull request](https://github.com/hibasalem/resty/pull/7)  
+[netlify](https://resty401.netlify.app/)
+
+---
+
+## lab 29
+
+**_RESTy Phase 4_** : Track History
+
+[pull request](https://github.com/hibasalem/resty/pull/8)  
+[netlify](https://resty401.netlify.app/)
+
+![uml](./lab29.jpg)
 
 ### Tests
 
@@ -56,24 +62,25 @@ expicted result :
 
 - `randomURL `
 
-  - `get `or`post`or`put`or` delete`
+  - `get` or `post` or `put` or ` delete`
     ​
 
-  Request Method: `get `or`post`or`put`or` delete`
-  URL: `randomURL`
+  - Request Method: `get` or `post` or `put` or ` delete`
+  - URL : `randomURL`
 
 ```
-  loading sppiner
+null
 ​
 ```
 
 - `valid api URL` example : `https://pokeapi.co/api/v2/pokemon`
 
-  - `get `or`post`or`put`or` delete`
+  - `get` or `post` or `put` or ` delete`
     ​
 
-  Request Method: `get `or`post`or`put`or` delete`
-  URL: `https://pokeapi.co/api/v2/pokemon`
+  - Request Method: `get` or `post` or `put` or ` delete`
+
+  - URL : `https://pokeapi.co/api/v2/pokemon`
 
 ```
 
