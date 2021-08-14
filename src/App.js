@@ -55,12 +55,10 @@ function App() {
     try {
       const raw = await fetch(requestParams.url);
       const data = await raw.json();
-
+      setdata(null);
       setloading(true);
       setTimeout(() => {
         setloading(false);
-      }, 800);
-      setTimeout(() => {
         setdata(data);
       }, 800);
 
@@ -78,7 +76,7 @@ function App() {
         <div>Request Method: {requestParams.method}</div>
         <div>URL: {requestParams.url}</div>
       </div>
-      <History history={history} />
+      <History handleApiCall={callApi} history={history} />
       <Results data={data} loading={loading} />
       <Footer />
     </>
