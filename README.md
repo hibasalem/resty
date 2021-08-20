@@ -12,7 +12,6 @@ this is a practice projecat for week 6 at asac 401 course
 [edit pull request](https://github.com/hibasalem/resty/pull/6)  
 [netlify](https://zealous-blackwell-84329a.netlify.app/)
 
-![uml](./lab27.jpg)
 
 ---
 
@@ -23,6 +22,8 @@ this is a practice projecat for week 6 at asac 401 course
 [pull request](https://github.com/hibasalem/resty/pull/5)  
 [edit pull request](https://github.com/hibasalem/resty/pull/7)  
 [netlify](https://resty401.netlify.app/)
+
+![uml](./lab27.jpg)
 
 ---
 
